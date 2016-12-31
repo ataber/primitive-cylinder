@@ -1,18 +1,18 @@
-# primitive-cone
+# primitive-cylinder
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-[![screen](http://i.imgur.com/i4gM4Jg.png)](http://ataber.github.io/primitive-cone/)
+[![screen](http://i.imgur.com/i4gM4Jg.png)](http://ataber.github.io/primitive-cylinder/)
 
-[(demo)](http://ataber.github.io/primitive-cone/)
+[(demo)](http://ataber.github.io/primitive-cylinder/)
 
-A minimal 3D cone geometry, including normals, UVs, and mesh.
+A minimal 3D cylindrical geometry, including normals, UVs, and mesh.
 
 ## Example
 
 ```js
-var cone = require('primitive-cone')
-var mesh = cone()
+var cylinder = require('primitive-cylinder')
+var mesh = cylinder()
 
 // the simplicial complex
 console.log(mesh.positions, mesh.cells)
@@ -24,15 +24,15 @@ console.log(mesh.normals)
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/primitive-cone.png)](https://www.npmjs.com/package/primitive-cone)
+[![NPM](https://nodei.co/npm/primitive-cylinder.png)](https://www.npmjs.com/package/primitive-cylinder)
 
-#### `mesh = cone(radiusTop, radiusBottom, height, radialSegments, heightSegments)`
+#### `mesh = cylinder(radiusTop, radiusBottom, height, radialSegments, heightSegments)`
 
 Creates a new torus with options:
 
-- `radiusTop` the radius of the cone at the top
-- `radiusBottom` the radius of the cone at the bottom
-- `height` the height of the cone
+- `radiusTop` the radius of the cylinder at the top
+- `radiusBottom` the radius of the cylinder at the bottom
+- `height` the height of the cylinder
 - `radialSegments` the number of segments for the radial axis
 - `heightSegments` the number of segments for the height axis
 
@@ -47,7 +47,7 @@ The returned mesh is an object with the following data:
 }
 ```
 
-Note that you can build a cylinder by setting the radii at the top and bottom to be equal.
+Note that you can build a cone by setting one of the radii to be zero.
 
 ## Contributing
 
@@ -59,4 +59,4 @@ The algorithm here is from [ThreeJS CylinderGeometry](https://github.com/mrdoob/
 
 ## License
 
-MIT. See [LICENSE.md](http://github.com/ataber/primitive-cone/blob/master/LICENSE.md) for details.
+MIT. See [LICENSE.md](http://github.com/ataber/primitive-cylinder/blob/master/LICENSE.md) for details.
