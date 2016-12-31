@@ -1,4 +1,4 @@
-function createConeMesh(
+function createCylinderMesh(
   radiusTop,
   radiusBottom,
   height,
@@ -127,4 +127,4 @@ function createConeMesh(
   }
 }
 
-module.exports = createConeMesh
+module.exports = createCylinderMesh

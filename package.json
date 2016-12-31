@@ -1,7 +1,7 @@
 {
-  "name": "primitive-cone",
+  "name": "primitive-cylinder",
   "version": "1.0.0",
-  "description": "A minimal 3D cone geometry, including normals, UVs, and mesh.",
+  "description": "A minimal 3D cylindrical geometry, including normals, UVs, and mesh.",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -22,12 +22,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ataber/primitive-cone.git"
+    "url": "git://github.com/ataber/primitive-cylinder.git"
   },
   "keywords": [
     "ecosystem:stackgl",
     "cylinder",
     "cone",
+    "frustum",
     "arrow",
     "mesh",
     "simplicial",
@@ -41,8 +42,8 @@
     "primitive",
     "stackgl"
   ],
-  "homepage": "https://github.com/ataber/primitive-cone",
+  "homepage": "https://github.com/ataber/primitive-cylinder",
   "bugs": {
-    "url": "https://github.com/ataber/primitive-cone/issues"
+    "url": "https://github.com/ataber/primitive-cylinder/issues"
   }
 }
