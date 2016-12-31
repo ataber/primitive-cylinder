@@ -1,0 +1,48 @@
+{
+  "name": "primitive-cone",
+  "version": "1.0.0",
+  "description": "A minimal 3D cone geometry, including normals, UVs, and mesh.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "budo demo.js:bundle.js --live --verbose --open"
+  },
+  "author": {
+    "name": "Andrew Taber",
+    "email": "andrew.e.taber@gmail.com",
+    "url": "http://taber.space/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "budo": "^9.3.0",
+    "glo-demo-primitive": "^2.0.1",
+    "mesh-viewer": "^1.0.0",
+    "uglify-js": "^2.7.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ataber/primitive-cone.git"
+  },
+  "keywords": [
+    "ecosystem:stackgl",
+    "cylinder",
+    "cone",
+    "arrow",
+    "mesh",
+    "simplicial",
+    "complex",
+    "meshes",
+    "geo",
+    "geometry",
+    "meshes",
+    "3d",
+    "circle",
+    "primitive",
+    "stackgl"
+  ],
+  "homepage": "https://github.com/ataber/primitive-cone",
+  "bugs": {
+    "url": "https://github.com/ataber/primitive-cone/issues"
+  }
+}
