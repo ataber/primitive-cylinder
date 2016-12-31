@@ -7,7 +7,7 @@ require('glo-demo-primitive')(mesh, {
 }).start()
 
 },{"./":2,"glo-demo-primitive":51}],2:[function(require,module,exports){
-function createConeMesh(
+function createCylinderMesh(
   radiusTop,
   radiusBottom,
   height,
@@ -136,7 +136,7 @@ function createConeMesh(
   }
 }
 
-module.exports = createConeMesh
+module.exports = createCylinderMesh
 
 },{}],3:[function(require,module,exports){
 var padLeft = require('pad-left')
