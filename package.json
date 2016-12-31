@@ -5,7 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "budo demo.js:bundle.js --live --verbose --open"
+    "start": "budo demo.js:bundle.js --live --verbose --open",
+    "build": "browserify demo.js > bundle.js"
   },
   "author": {
     "name": "Andrew Taber",
@@ -17,8 +18,7 @@
     "browserify": "^13.1.1",
     "budo": "^9.3.0",
     "glo-demo-primitive": "^2.0.1",
-    "mesh-viewer": "^1.0.0",
-    "uglify-js": "^2.7.5"
+    "mesh-viewer": "^1.0.0"
   },
   "repository": {
     "type": "git",
