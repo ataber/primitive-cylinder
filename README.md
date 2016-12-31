@@ -2,6 +2,10 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
+[![screen](http://i.imgur.com/i4gM4Jg.png)](http://ataber.github.io/primitive-cone/)
+
+[(demo)](http://ataber.github.io/primitive-cone/)
+
 A minimal 3D cone geometry, including normals, UVs, and mesh.
 
 ## Example
