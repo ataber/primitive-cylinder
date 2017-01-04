@@ -1,6 +1,6 @@
 {
   "name": "primitive-cylinder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimal 3D cylindrical geometry, including normals, UVs, and mesh.",
   "main": "index.js",
   "license": "MIT",
