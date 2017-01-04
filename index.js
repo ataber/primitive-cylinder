@@ -67,7 +67,7 @@ function createCylinderMesh(
     }
   }
 
-  var generateCap = (top) => {
+  var generateCap = function (top) {
     var vertex = new Array(3).fill(0)
 
     var radius = (top === true) ? radiusTop : radiusBottom
