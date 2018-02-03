@@ -12,7 +12,7 @@ A minimal 3D cylindrical geometry, including normals, UVs, and mesh.
 
 ```js
 var cylinder = require('primitive-cylinder')
-var mesh = cylinder()
+var mesh = cylinder(10, 10, 50, 10, 10)
 
 // the simplicial complex
 console.log(mesh.positions, mesh.cells)
