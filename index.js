@@ -8,6 +8,12 @@ function createCylinderMesh(
   var index = 0
   var indexOffset = 0
   var indexArray = []
+  
+  radiusTop = typeof radius !== 'undefined' ? radiusTop : 1
+  radiusBottom = typeof radius !== 'undefined' ? radiusBottom : 1
+  height = typeof height !== 'undefined' ? height : 5
+  radialSegments = typeof radialSegments !== 'undefined' ? radialSegments : 64
+  heightSegments = typeof heightSegments !== 'undefined' ? heightSegments : 8
 
   var capCount = 0
   if (radiusTop > 0) {
