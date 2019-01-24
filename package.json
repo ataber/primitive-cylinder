@@ -1,6 +1,6 @@
 {
   "name": "primitive-cylinder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A minimal 3D cylindrical geometry, including normals, UVs, and mesh.",
   "main": "index.js",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "browserify": "^13.1.1",
-    "budo": "^9.3.0",
+    "budo": "^11.6.0",
     "glo-demo-primitive": "^2.0.1",
     "mesh-viewer": "^1.0.0",
     "uglify-js": "^2.7.5"
