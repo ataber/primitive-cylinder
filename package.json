@@ -15,7 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "browserify": "^13.1.1",
-    "budo": "^11.6.0",
+    "budo": "^11.6.3",
     "glo-demo-primitive": "^2.0.1",
     "mesh-viewer": "^1.0.0",
     "uglify-js": "^2.7.5"
